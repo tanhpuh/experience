@@ -74,6 +74,8 @@ for query in lines:
 
     gc = gspread.authorize(credentials)
 
+    # share service account email to sheet: email service_account
+
     gauth = GoogleAuth()
     drive = GoogleDrive(gauth)
 
