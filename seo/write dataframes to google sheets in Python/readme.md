@@ -1,16 +1,16 @@
-1. Create a project and service account
+# Create a project and service account
 - Go to https://console.cloud.google.com sign in and create a project.
 - Go to IAM & Admin > Service Accounts.
 - Create service account (fill form) > Create and Continue > Skip all fields in step 2 and 3 > Done.
 
-2. Create JSON credentials file
+# Create JSON credentials file
 - To get authorization from the service account we created, we must have a credentials file. Get it by clicking the three vertical dots button > Manage keys.
 - Click ADD KEY > Create new key (Select Key type as JSON > Click Create)
 
-3. Enable Google Sheets API
+# Enable Google Sheets API
 Go to https://console.cloud.google.com/apis/library/sheets.googleapis.com. Click Enable.
    
-4. Access google sheet using libraries.
+# Access google sheet using libraries.
 Install all libraries used as followings:
 gspread
 gspread-dataframe
@@ -36,12 +36,12 @@ gc = gspread.authorize(credentials)
 gauth = GoogleAuth()
 drive = GoogleDrive(gauth)
 
-# open a google sheet
+# # open a google sheet
 gs = gc.open_by_key(your_google_sheet_key)
-# select a work sheet from its name
+# # select a work sheet from its name
 worksheet1 = gs.worksheet('your_goole_sheet_name')
 
-#https://docs.google.com/spreadsheets/d/{your_google_sheet_key}/edit
+https://docs.google.com/spreadsheets/d/{your_google_sheet_key}/edit
 
 4. Share your google sheet to the service account
 Open Google Sheet and share service account email.
