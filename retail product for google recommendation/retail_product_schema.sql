@@ -158,3 +158,4 @@ WITH
   WHERE 1=1
     AND thumbnail IS NOT NULL
     AND originalPrice != 0
+
