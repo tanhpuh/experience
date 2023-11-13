@@ -36,9 +36,10 @@ gc = gspread.authorize(credentials)
 gauth = GoogleAuth()
 drive = GoogleDrive(gauth)
 
--- # open a google sheet
+open a google sheet
 gs = gc.open_by_key(your_google_sheet_key)
--- # select a work sheet from its name
+
+select a work sheet from its name
 worksheet1 = gs.worksheet('your_goole_sheet_name')
 
 https://docs.google.com/spreadsheets/d/{your_google_sheet_key}/edit
