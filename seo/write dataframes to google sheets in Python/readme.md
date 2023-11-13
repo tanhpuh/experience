@@ -44,7 +44,7 @@ worksheet1 = gs.worksheet('your_goole_sheet_name')
 
 https://docs.google.com/spreadsheets/d/{your_google_sheet_key}/edit
 
-4. Share your google sheet to the service account
+# Share your google sheet to the service account
 Open Google Sheet and share service account email.
 
 
