@@ -7,9 +7,9 @@
 - To get authorization from the service account we created, we must have a credentials file. Get it by clicking the three vertical dots button > Manage keys.
 - Click ADD KEY > Create new key (Select Key type as JSON > Click Create)
 
-# Enable Google Sheets API
-Go to https://console.cloud.google.com/apis/library/sheets.googleapis.com. Click Enable.
-Go to https://console.cloud.google.com/marketplace/product/google/drive.googleapis.com. Click Enable.
+# Enable Google Sheets/ Drive API
+- Go to https://console.cloud.google.com/apis/library/sheets.googleapis.com. Click Enable.
+- Go to https://console.cloud.google.com/marketplace/product/google/drive.googleapis.com. Click Enable.
    
 # Access google sheet using libraries.
 Install all libraries used as followings:
