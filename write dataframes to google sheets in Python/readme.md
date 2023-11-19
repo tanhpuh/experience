@@ -9,6 +9,7 @@
 
 # Enable Google Sheets API
 Go to https://console.cloud.google.com/apis/library/sheets.googleapis.com. Click Enable.
+Go to https://console.cloud.google.com/marketplace/product/google/drive.googleapis.com. Click Enable.
    
 # Access google sheet using libraries.
 Install all libraries used as followings:
